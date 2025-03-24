@@ -2,24 +2,20 @@
 @import "../../styles/variables";
 
 .footerContainer {
-  background-color: $primary_back_footer;
-  height: 300px;
-  padding: 64px;
+  background-color: #232425;
+  height: 347px;
+  
   width: 100%;
   @include flexbox(row, space-around, center);
   flex-wrap: wrap;
-  @media (max-width: 600px) {
-    gap: 20px;
-    height: 100%;
-  }
+  margin-top: 170px;
+
   .privacyContainer,
   .socialContainer {
     height: 100%;
     @include flexbox(column, space-between);
-    @media (max-width: 600px) {
-      width: 100%;
-      justify-content: flex-start;
-    }
+    margin: 0;
+    padding-top: 73px;
   }
 
   .socialContainer li:first-child {

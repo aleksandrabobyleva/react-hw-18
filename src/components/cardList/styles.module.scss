@@ -1,10 +1,16 @@
-@import '../../styles/mixins';
-@import '../../styles/variables';
-.goodListContainer{
+@import "../../styles/mixins";
+@import "../../styles/variables";
 
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-
-gap: 20px;
+.goodListContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 131px;
+  margin: 0;
+  padding: 0;
+  width: 1420px;
+  width: 100%;
+  border: 1
 }

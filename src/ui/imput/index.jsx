@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import styles from './styles.module.scss';
+import styles from './styles.module.css';
 
 const Input = forwardRef(
   ({ styleImp, type, placeholder, onChange,  onKeyDown,...rest }, ref) => {

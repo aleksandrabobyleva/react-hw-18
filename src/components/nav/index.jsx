@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 function myActive(isActive) {
   return {
-    color: isActive ? '#5ce6ff' : '#FFFFFF',
-      opacity: isActive ? 0.6 : 1,
+    color: isActive ? 'white' : 'gray' ,
+     
      fontSize: '15px',
       fontWeight: '600', 
 

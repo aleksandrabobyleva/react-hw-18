@@ -1,6 +1,6 @@
 import Card from '../cardComponent';
 import styles from "./styles.module.scss"
-// import { memo } from 'react';
+ 
 
 function CardList({
   items,
@@ -13,7 +13,7 @@ function CardList({
   return (
     <ul className={styles.goodListContainer}>
       {children}
-      {items.map(item => (
+      {items.slice(0, 3).map(item => (
         <Card
           styleSpan={styleSpan}
           styleLi={styleLi}
